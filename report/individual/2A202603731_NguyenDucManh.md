@@ -185,19 +185,54 @@ Xác định cấu hình → Chạy training → Theo dõi log → Ghi nhận k�
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Ban đầu, tôi chủ yếu quan tâm đến những khó khăn trong quá trình nghiên cứu AI của bản thân, chẳng hạn như tìm kiếm paper liên quan, so sánh các phương pháp và theo dõi kết quả thí nghiệm. Tuy nhiên, khi nghe các thành viên khác trình bày, tôi nhận ra mỗi người có những vấn đề khác nhau trong quá trình học tập và làm việc.
 
+Ví dụ, nhóm đề cập đến vấn đề Git Merge Conflict, đặc biệt là khó khăn khi thiếu ngữ cảnh nghiệp vụ để hiểu mục đích của những thay đổi trong code. Trong khi đó, Anh Tuấn đề cập đến việc kiểm tra rubric, tổng hợp chi phí và xử lý lỗi môi trường lập trình.
+
+Qua đó, tôi học được rằng một vấn đề đáng quan tâm không nhất thiết phải là một vấn đề kỹ thuật phức tạp. Điều quan trọng là xác định được vấn đề có ảnh hưởng như thế nào đến quy trình làm việc, mức độ thường xuyên xảy ra và thời gian mà người dùng phải bỏ ra để xử lý. 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Trong quá trình thảo luận, nhóm có thể dễ dàng đi đến ý tưởng xây dựng một công cụ tự động giải quyết Git Merge Conflict. Tuy nhiên, nếu chỉ tập trung vào việc tự động gộp code thì chưa chắc đã giải quyết được khó khăn thực sự của developer.
+
+Vấn đề không chỉ nằm ở việc Git không thể tự động merge một số thay đổi, mà còn nằm ở việc developer có thể thiếu thông tin về mục đích nghiệp vụ của những thay đổi đó. Vì vậy, nhóm cần phân biệt giữa conflict ở cấp độ code và conflict liên quan đến ý nghĩa hoặc logic của chương trình.
+
+Để tránh solution-first, nhóm cần quay lại phân tích quy trình hiện tại, xác định điểm gây tốn thời gian và làm rõ nguyên nhân của vấn đề. Từ đó, hướng giải pháp được điều chỉnh theo hướng sử dụng AI để phân tích, giải thích và đề xuất cách xử lý, thay vì tự động quyết định merge.
+
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có sự thay đổi trong cách tôi lựa chọn vấn đề cần giải quyết. Ban đầu, tôi tập trung vào vấn đề cá nhân là tìm kiếm các paper phù hợp phục vụ nghiên cứu AI. Đây là công việc tôi thường thực hiện và gặp khó khăn khi phải tìm kiếm, sàng lọc, đọc và so sánh nhiều tài liệu khác nhau.
+
+Tuy nhiên, sau khi các thành viên trình bày top 3 problems, tôi nhận ra mỗi người đều có những khó khăn riêng và nhóm cần lựa chọn một vấn đề chung để cùng phân tích. Vì vậy, tôi chuyển sự tập trung từ vấn đề tìm kiếm paper của cá nhân sang problem mà nhóm lựa chọn.
+
+Sự thay đổi này giúp tôi nhìn nhận vấn đề ở góc độ rộng hơn. Thay vì chỉ đánh giá một vấn đề dựa trên trải nghiệm cá nhân, tôi cần xem xét quy trình, mức độ ảnh hưởng và khả năng giải quyết vấn đề trong bối cảnh làm việc của nhóm.
+
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Trong CP4 và CP5, vai trò của tôi là research và phân tích các giải pháp hiện có. Nhóm chủ yếu tìm hiểu các công cụ và giải pháp đã được phát triển, chưa thực hiện phỏng vấn người dùng hoặc khảo sát bằng survey.
+
+Qua quá trình research, tôi nhận ra rằng các công cụ hỗ trợ so sánh code có thể giúp developer nhìn thấy sự khác biệt giữa các phiên bản, nhưng việc hiểu mục đích nghiệp vụ đằng sau những thay đổi đó là một vấn đề khác. Điều này giúp tôi phân biệt giữa khả năng xử lý conflict ở cấp độ code và khả năng hỗ trợ developer hiểu ngữ cảnh của thay đổi.
+
+Tuy nhiên, do nhóm chưa phỏng vấn hoặc khảo sát người dùng thực tế nên tôi không thể kết luận rằng vấn đề đã được người dùng xác nhận hoặc giải pháp đề xuất chắc chắn hiệu quả. Đây cũng là một hạn chế trong quá trình kiểm chứng mà tôi nhận thấy.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất đối với tôi là xác định và diễn đạt đúng vấn đề cốt lõi mà không đưa giải pháp vào quá sớm. Khi nhắc đến Git Merge Conflict, suy nghĩ đầu tiên có thể là cần một công cụ tự động merge code. Tuy nhiên, đây mới chỉ là hướng giải pháp chứ chưa thể hiện đầy đủ vấn đề mà developer đang gặp phải.
+
+Tôi cần phân biệt giữa triệu chứng và nguyên nhân. Git báo conflict là một tình huống kỹ thuật, trong khi khó khăn lớn hơn có thể là developer không hiểu được ý định của người viết code trước đó và phải liên hệ đồng đội để bổ sung ngữ cảnh.
+
+Ngoài ra, việc lựa chọn metric cũng là một thách thức. Nhóm cần xác định những chỉ số phù hợp như thời gian xử lý conflict và tỷ lệ lỗi logic sau khi merge. Những chỉ số này cần được đo lường thực tế, không nên nhầm lẫn giữa số liệu ước lượng, mục tiêu kỳ vọng và kết quả đã kiểm chứng.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu được thực hiện lại, tôi sẽ dành nhiều thời gian hơn cho việc thu thập bằng chứng về vấn đề trước khi tập trung nghiên cứu giải pháp. Trong vai trò Research CP4/CP5, tôi đã chủ yếu tìm hiểu các công cụ và giải pháp hiện có. Tuy nhiên, tôi nhận thấy research về công cụ chưa đủ để chứng minh rằng người dùng thực sự gặp vấn đề hoặc giải pháp đó phù hợp với quy trình của họ.
+
+Tôi sẽ đề xuất nhóm phỏng vấn một số developer hoặc thực hiện khảo sát để hiểu rõ hơn cách họ xử lý Git Merge Conflict trong thực tế. Đồng thời, tôi sẽ chú ý phân biệt số liệu đo được, số liệu ước lượng và mục tiêu kỳ vọng để tránh đưa ra những kết luận thiếu cơ sở.
+
+Tôi cũng sẽ phản biện nhóm mạnh hơn ở câu hỏi: "Vấn đề thực sự là Git không thể tự động merge code hay developer đang thiếu thông tin để hiểu ý định của những thay đổi?". Bên cạnh đó, cần đánh giá liệu vấn đề có nhất thiết phải sử dụng AI hay có thể giải quyết một phần bằng rule hoặc workflow thông thường. Điều này giúp nhóm tránh sử dụng AI chỉ vì muốn xây dựng một sản phẩm có AI, thay vì xuất phát từ nhu cầu thực tế.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+
+Problem của nhóm là developer thiếu business context khi xử lý Git Merge Conflict, khiến họ gặp khó khăn trong việc hiểu mục đích của những thay đổi trong code. Quy trình hiện tại bắt đầu khi Git phát hiện conflict, developer phải đọc hai phiên bản code, liên hệ đồng đội để hỏi ý định thay đổi, chờ phản hồi rồi mới quyết định cách xử lý. Hai metric có thể sử dụng để đánh giá là thời gian xử lý conflict và tỷ lệ lỗi logic hoặc regression sau khi merge. Boundary của giải pháp là AI được phép phân tích commit history, PR description và Git diff để giải thích thay đổi, nhận diện rủi ro và đề xuất hướng xử lý. AI không tự ý commit hoặc merge code. Mức can thiệp phù hợp là Workflow kết hợp AI và Human-in-the-loop, thay vì Agent tự động hoàn toàn. Cuối cùng, developer vẫn là người kiểm tra đề xuất, đưa ra quyết định merge và chịu trách nhiệm về kết quả.
 ---
 
 ## 7. Tài liệu tham khảo
