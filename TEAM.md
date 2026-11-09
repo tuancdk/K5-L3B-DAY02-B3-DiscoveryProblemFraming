@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Lê Anh Tuấn | 2A202603792 | Trưởng nhóm | [tuancdk](https://github.com/tuancdk) |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
